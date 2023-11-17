@@ -115,3 +115,17 @@ img#cooking-info {
 #recipe li {
   font-size: 1.6rem;
 }
+
+@media (max-width: 767px){
+  img#recipe-info {
+    height: 4rem;
+  }
+  
+  img#cooking-info {
+    height: 5rem;
+  }
+
+  #recipe {
+    margin: 50px;
+  }  
+}
